@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="Podcastr" title="Podcastr" src="./public/logo.svg" width="50%"/>
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Instalação e Start">Instalação e Start</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=db161d&labelColor=000000&">
+  <img alt="Web" src="https://img.shields.io/static/v1?label=Web&message=React&color=15C3D6&labelColor=000000&logo=react">
+  <img alt="ServerSide" src="https://img.shields.io/static/v1?label=ServerSide&message=NextJS&color=339933&labelColor=000000&logo=next.js">
+  <img alt="TypeScript" src="https://img.shields.io/static/v1?label=Lang&message=TypeScript&color=007ACC&labelColor=000000&logo=typescript">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Podcastr" src="./public/mocupmacbook.png" width="100%">
+</p>
+
+## 💻 Projeto
+
+O objetivo do Podcastr é ser um player de podcasts, que atualmente são fornecidos pela Rocketseat onde você pode ouvir podcasts e acompanhar o lançamentos de novos podcasts. Feito com as novas tecnologias de SSR e SSG.
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [ReactJS](https://reactjs.org)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## ⚙ Instalação e Start
+
+Este repositório é um repositorio React, porém ele consome por debaixo dos panos uma API falsa que é sustentada pelo Json server, para isso certifique-se de que tenha [NPM](https://www.npmjs.com/) ou [YARN](https://yarnpkg.com/) instalado em seu ambiente, além, é claro, o repositório clonado em seu ambiente.
+
+Clone o repositório com:
+
+> git clone https://github.com/Gabroiz/Podcastr.git
+
+As demonstrações utilizam **YARN** por padronização, mas, caso use **NPM**, basta substituir onde estiver escrito `yarn` por `npm`.
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Entre na pasta do projeto
+$ cd podcastr
+
+# Instale as dependências
+$ yarn install
+
+# Inicie a API falsa
+$ yarn server
+
+# Execute a aplicação
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Agora basta abrir [`http://localhost:3000/`](http://localhost:3333/) para ver a aplicação rodando
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :memo: Licença
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
